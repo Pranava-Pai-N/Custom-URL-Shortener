@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid"
-import { URL } from "../models/url.js"
+import { URL } from "../models/url.models.js"
 
 
 export const getShortId = async (req, res) => {
